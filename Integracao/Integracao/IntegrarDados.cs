@@ -21,7 +21,7 @@ namespace Integracao
             //Setando a url de destino
             driver.Navigate().GoToUrl("https://esgcorpfirm.novajus.com.br");
 
-            //Instanciando a classe que esperará por até 40 segundos por algum elemento
+            //Instanciando a classe que esperará por um tempo o carregamento de um elemento setado
             WebDriverWait espera = new WebDriverWait(driver, TimeSpan.FromMinutes(5));
 
             //Verificando se o elemento já está visivel e habilitado para acessar a tela de login
@@ -62,7 +62,7 @@ namespace Integracao
         //Método responsável por pesquisar os contatos buscados da planilha
         public void Pesquisar(string nomeContato, string cpf)
         {
-            //Instanciando a classe que esperará por até 40 segundos por algum elemento
+            //Instanciando a classe que aguardará o carregamento de determinado elemento
             WebDriverWait espera = new WebDriverWait(driver, TimeSpan.FromMinutes(5));
 
             //Verificando se o elemento já está visivel e habilitado para acessar a tela de de Contatos
@@ -101,8 +101,8 @@ namespace Integracao
         public void Cadastrar(String nomeContato, string cpf)
         {
 
-            //Instanciando a classe que esperará por até 40 segundos por algum elemento
-            WebDriverWait espera = new WebDriverWait(driver, TimeSpan.FromSeconds(40));
+            //Instanciando a classe que aguardará o carregamento de determinado elemento
+            WebDriverWait espera = new WebDriverWait(driver, TimeSpan.FromSeconds(240));
 
             
             //Chamar tela de cadastro de contato
