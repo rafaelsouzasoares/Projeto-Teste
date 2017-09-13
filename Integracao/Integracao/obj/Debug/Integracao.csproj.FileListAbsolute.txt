@@ -9,3 +9,14 @@ C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\obj\
 C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\obj\Debug\Integracao.pdb
 C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\nunit.framework.dll
 C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\nunit.framework.xml
+C:\Projetos\Projetos\Integracao\Integracao\bin\Debug\Integracao.dll
+C:\Projetos\Projetos\Integracao\Integracao\bin\Debug\Integracao.pdb
+C:\Projetos\Projetos\Integracao\Integracao\bin\Debug\nunit.framework.dll
+C:\Projetos\Projetos\Integracao\Integracao\bin\Debug\WebDriver.dll
+C:\Projetos\Projetos\Integracao\Integracao\bin\Debug\WebDriver.Support.dll
+C:\Projetos\Projetos\Integracao\Integracao\bin\Debug\nunit.framework.xml
+C:\Projetos\Projetos\Integracao\Integracao\bin\Debug\WebDriver.xml
+C:\Projetos\Projetos\Integracao\Integracao\bin\Debug\WebDriver.Support.xml
+C:\Projetos\Projetos\Integracao\Integracao\obj\Debug\Integracao.csprojResolveAssemblyReference.cache
+C:\Projetos\Projetos\Integracao\Integracao\obj\Debug\Integracao.dll
+C:\Projetos\Projetos\Integracao\Integracao\obj\Debug\Integracao.pdb

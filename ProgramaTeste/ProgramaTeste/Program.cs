@@ -42,13 +42,13 @@ namespace ProgramaTeste
 
                 integracao.Pesquisar(nomeUsuario, cpf);
             }
+
             //Finalizando ChromeWebDrive
             integracao.Finalizar();
 
 
-            Console.WriteLine("Processo finalizado!");
+            Console.WriteLine("Processo finalizado!");            
             Environment.Exit(0);
-
                         
         }
     }

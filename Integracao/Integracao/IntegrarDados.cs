@@ -128,9 +128,8 @@ namespace Integracao
             }
 
             //Aguardando mensagem de contato incluído com sucesso para continuar
-            espera.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.ClassName("top-message-body sucesso")));
+            espera.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.ClassName("top-message")));
                         
-            //Após isso será iniciado novamente o processo de pesquisa
         }
 
         public void Finalizar()
