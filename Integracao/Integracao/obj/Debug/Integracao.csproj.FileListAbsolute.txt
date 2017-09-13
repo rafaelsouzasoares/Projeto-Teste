@@ -1,0 +1,11 @@
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\Integracao.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\Integracao.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\WebDriver.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\WebDriver.Support.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\WebDriver.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\WebDriver.Support.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\obj\Debug\Integracao.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\obj\Debug\Integracao.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\obj\Debug\Integracao.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\nunit.framework.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Integracao\Integracao\bin\Debug\nunit.framework.xml

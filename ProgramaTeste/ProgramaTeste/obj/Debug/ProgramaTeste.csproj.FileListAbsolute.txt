@@ -1,0 +1,14 @@
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\ProgramaTeste.exe.config
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\ProgramaTeste.exe
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\ProgramaTeste.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\nunit.framework.dll
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\WebDriver.dll
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\WebDriver.Support.dll
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\nunit.framework.xml
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\WebDriver.xml
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\WebDriver.Support.xml
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\obj\Debug\ProgramaTeste.csprojResolveAssemblyReference.cache
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\obj\Debug\ProgramaTeste.exe
+c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\obj\Debug\ProgramaTeste.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\Integracao.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\Integracao.dll
