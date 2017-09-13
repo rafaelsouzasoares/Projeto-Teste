@@ -100,10 +100,8 @@ namespace Integracao
         //Método responsável por inserir os contatos que não existirem
         public void Cadastrar(String nomeContato, string cpf)
         {
-
             //Instanciando a classe que aguardará o carregamento de determinado elemento
             WebDriverWait espera = new WebDriverWait(driver, TimeSpan.FromSeconds(240));
-
             
             //Chamar tela de cadastro de contato
             if (driver.FindElements(By.LinkText("Nova pessoa física")).Count > 0)
@@ -128,9 +126,9 @@ namespace Integracao
             }
 
             //Aguardando mensagem de contato incluído com sucesso para continuar
-            espera.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.ClassName("top-message")));
-                        
+            espera.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.ClassName("top-message")));                        
         }
+
 
         public void Finalizar()
         {
