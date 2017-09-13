@@ -8,6 +8,7 @@ using OpenQA.Selenium.Chrome;
 using excel = Microsoft.Office.Interop.Excel;
 using OpenQA.Selenium.Support.UI;
 using Integracao;
+using System.IO;
 
 namespace ProgramaTeste
 {
@@ -15,20 +16,29 @@ namespace ProgramaTeste
     {
         static void Main(string[] args)
         {
+            //Obtendo o caminho onde a aplicação está sendo executada
+            string startupPath = AppDomain.CurrentDomain.BaseDirectory;
+
+            //Obtendo o caminho do arquivo com a fonte de dados
+            string arquivo = Path.Combine(startupPath, "origem de dados.xlsx");
+
+            String nomeUsuario;
+            String cpf;
 
             excel.Application x1app = new excel.Application();
 
-            excel.Workbook x1workbook = x1app.Workbooks.Open(@"C:\Users\Rafael\Desktop\origem de dados.xlsx");
+            //Atribuindo o arquivo xls de onde buscaremos os dados
+            excel.Workbook arquivoTrabalho = x1app.Workbooks.Open(arquivo);
 
-            //Pegando a pasta de trabalho do excel onde estão os dados
-            excel.Worksheet x1worksheet = x1workbook.Sheets[1];
+            //Pegando a pasta de trabalho(Aba) do excel onde estão os dados
+            excel.Worksheet abaTrabalho = arquivoTrabalho.Sheets[1];
 
-            //Obtendo o valor das linhas do arquivo
-            excel.Range x1range = x1worksheet.UsedRange;
-
-            int numLinhas = x1range.Cells.Rows.Count;
-            String nomeUsuario;
-            String cpf;
+            //Obtendo o valor das células preenchidas do arquivo
+            excel.Range celulas = abaTrabalho.UsedRange;
+            
+            //Número de linhas utilizadas no arquivo
+            int numLinhas = celulas.Cells.Rows.Count;
+            
 
             //Iniciando processo de passagem de dados para integração
             Integracao.IntegrarDados integracao = new Integracao.IntegrarDados();
@@ -37,17 +47,19 @@ namespace ProgramaTeste
 
             for (int i = 2000; i <= numLinhas; i++)
             {
-                nomeUsuario = (x1range.Cells[i, 1] as excel.Range).Value.ToString();
-                cpf = (x1range.Cells[i, 2] as excel.Range).Value.ToString();
+                nomeUsuario = (celulas.Cells[i, 1] as excel.Range).Value.ToString();
+                cpf = (celulas.Cells[i, 2] as excel.Range).Value.ToString();
 
                 integracao.Pesquisar(nomeUsuario, cpf);
             }
 
             //Finalizando ChromeWebDrive
             integracao.Finalizar();
+            arquivoTrabalho.Close(0);
+            x1app.Quit();            
 
-
-            Console.WriteLine("Processo finalizado!");            
+            Console.Clear();
+            Console.WriteLine("----------Processo finalizado!------------");
             Environment.Exit(0);
                         
         }
