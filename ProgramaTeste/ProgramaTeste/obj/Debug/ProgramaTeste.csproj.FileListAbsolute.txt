@@ -12,3 +12,6 @@ c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTest
 c:\users\rafael\documents\visual studio 2015\Projects\ProgramaTeste\ProgramaTeste\obj\Debug\ProgramaTeste.pdb
 C:\Users\Rafael\Documents\Visual Studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\Integracao.pdb
 C:\Users\Rafael\Documents\Visual Studio 2015\Projects\ProgramaTeste\ProgramaTeste\bin\Debug\Integracao.dll
+C:\Projetos\Projetos\ProgramaTeste\ProgramaTeste\bin\Debug\ProgramaTeste.exe.config
+C:\Projetos\Projetos\ProgramaTeste\ProgramaTeste\obj\Debug\ProgramaTeste.exe
+C:\Projetos\Projetos\ProgramaTeste\ProgramaTeste\obj\Debug\ProgramaTeste.pdb
