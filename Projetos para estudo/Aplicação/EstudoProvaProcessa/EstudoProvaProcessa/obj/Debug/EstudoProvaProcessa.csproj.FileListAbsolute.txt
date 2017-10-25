@@ -1,0 +1,13 @@
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\bin\Debug\EstudoProvaProcessa.exe.config
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\bin\Debug\EstudoProvaProcessa.exe
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\bin\Debug\EstudoProvaProcessa.pdb
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\bin\Debug\Controlers.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\bin\Debug\Modelos.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\bin\Debug\Controlers.pdb
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\bin\Debug\Modelos.pdb
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\obj\Debug\EstudoProvaProcessa.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\obj\Debug\EstudoProvaProcessa.Form1.resources
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\obj\Debug\EstudoProvaProcessa.Properties.Resources.resources
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\obj\Debug\EstudoProvaProcessa.csproj.GenerateResource.Cache
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\obj\Debug\EstudoProvaProcessa.exe
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\EstudoProvaProcessa\obj\Debug\EstudoProvaProcessa.pdb

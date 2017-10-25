@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="varejoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cliente_tb">
+    <Key>
+      <PropertyRef Name="cliente_id" />
+    </Key>
+    <Property Name="cliente_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_cli" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cpf" Type="Int32" Nullable="false" />
+    <Property Name="rg" Type="Int32" Nullable="false" />
+    <Property Name="data_nascimento" Type="DateTime" Precision="0" />
+    <Property Name="telefone" Type="Int32" />
+    <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="endereco" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="cep" Type="Int32" />
+    <NavigationProperty Name="venda_tb" Relationship="Self.FK_cliente_id" FromRole="cliente_tb" ToRole="venda_tb" />
+  </EntityType>
+  <EntityType Name="funcionario_tb">
+    <Key>
+      <PropertyRef Name="funcionario_id" />
+    </Key>
+    <Property Name="funcionario_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_func" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cargo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="data_nascimento" Type="DateTime" Precision="0" />
+    <Property Name="cpf" Type="Int32" Nullable="false" />
+    <Property Name="rg" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="venda_tb" Relationship="Self.FK_funcionario_id" FromRole="funcionario_tb" ToRole="venda_tb" />
+  </EntityType>
+  <EntityType Name="produto_tb">
+    <Key>
+      <PropertyRef Name="produto_id" />
+    </Key>
+    <Property Name="produto_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_prod" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descricao" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="preco" Type="Decimal" Precision="12" Scale="2" />
+    <NavigationProperty Name="venda_tb" Relationship="Self.FK_produto_id" FromRole="produto_tb" ToRole="venda_tb" />
+  </EntityType>
+  <EntityType Name="venda_tb">
+    <Key>
+      <PropertyRef Name="venda_id" />
+    </Key>
+    <Property Name="venda_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="produto_id" Type="Int32" />
+    <Property Name="cliente_id" Type="Int32" />
+    <Property Name="funcionario_id" Type="Int32" />
+    <Property Name="data" Type="DateTime" Precision="0" />
+    <Property Name="forma_pagamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="descricao" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="cliente_tb" Relationship="Self.FK_cliente_id" FromRole="venda_tb" ToRole="cliente_tb" />
+    <NavigationProperty Name="funcionario_tb" Relationship="Self.FK_funcionario_id" FromRole="venda_tb" ToRole="funcionario_tb" />
+    <NavigationProperty Name="produto_tb" Relationship="Self.FK_produto_id" FromRole="venda_tb" ToRole="produto_tb" />
+  </EntityType>
+  <Association Name="FK_cliente_id">
+    <End Role="cliente_tb" Type="Self.cliente_tb" Multiplicity="0..1" />
+    <End Role="venda_tb" Type="Self.venda_tb" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente_tb">
+        <PropertyRef Name="cliente_id" />
+      </Principal>
+      <Dependent Role="venda_tb">
+        <PropertyRef Name="cliente_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_funcionario_id">
+    <End Role="funcionario_tb" Type="Self.funcionario_tb" Multiplicity="0..1" />
+    <End Role="venda_tb" Type="Self.venda_tb" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="funcionario_tb">
+        <PropertyRef Name="funcionario_id" />
+      </Principal>
+      <Dependent Role="venda_tb">
+        <PropertyRef Name="funcionario_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_produto_id">
+    <End Role="produto_tb" Type="Self.produto_tb" Multiplicity="0..1" />
+    <End Role="venda_tb" Type="Self.venda_tb" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="produto_tb">
+        <PropertyRef Name="produto_id" />
+      </Principal>
+      <Dependent Role="venda_tb">
+        <PropertyRef Name="produto_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="varejoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cliente_tb" EntityType="Self.cliente_tb" />
+    <EntitySet Name="funcionario_tb" EntityType="Self.funcionario_tb" />
+    <EntitySet Name="produto_tb" EntityType="Self.produto_tb" />
+    <EntitySet Name="venda_tb" EntityType="Self.venda_tb" />
+    <AssociationSet Name="FK_cliente_id" Association="Self.FK_cliente_id">
+      <End Role="cliente_tb" EntitySet="cliente_tb" />
+      <End Role="venda_tb" EntitySet="venda_tb" />
+    </AssociationSet>
+    <AssociationSet Name="FK_funcionario_id" Association="Self.FK_funcionario_id">
+      <End Role="funcionario_tb" EntitySet="funcionario_tb" />
+      <End Role="venda_tb" EntitySet="venda_tb" />
+    </AssociationSet>
+    <AssociationSet Name="FK_produto_id" Association="Self.FK_produto_id">
+      <End Role="produto_tb" EntitySet="produto_tb" />
+      <End Role="venda_tb" EntitySet="venda_tb" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

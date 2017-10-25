@@ -1,0 +1,6 @@
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\Modelos\bin\Debug\Modelos.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\Modelos\bin\Debug\Modelos.pdb
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\Modelos\obj\Debug\Modelos.Properties.Resources.resources
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\Modelos\obj\Debug\Modelos.csproj.GenerateResource.Cache
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\Modelos\obj\Debug\Modelos.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\Modelos\obj\Debug\Modelos.pdb

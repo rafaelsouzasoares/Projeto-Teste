@@ -1,0 +1,16 @@
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\bin\Debug\ProjetoVarejo.exe.config
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\bin\Debug\ProjetoVarejo.exe
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\bin\Debug\ProjetoVarejo.pdb
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\bin\Debug\EntityFramework.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\bin\Debug\Modelos.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\bin\Debug\EntityFramework.xml
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\bin\Debug\Modelos.pdb
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\obj\Debug\ProjetoVarejo.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\obj\Debug\ProjetoVarejo.CadastroCliente.resources
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\obj\Debug\ProjetoVarejo.TelaPricipal.resources
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\obj\Debug\ProjetoVarejo.Properties.Resources.resources
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\obj\Debug\ProjetoVarejo.csproj.GenerateResource.Cache
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\obj\Debug\ProjetoVarejo.exe
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProjetoVarejo\ProjetoVarejo\obj\Debug\ProjetoVarejo.pdb

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="varejoModelStoreContainer" CdmEntityContainer="varejoEntities">
+    <EntitySetMapping Name="cliente_tb">
+      <EntityTypeMapping TypeName="varejoModel.cliente_tb">
+        <MappingFragment StoreEntitySet="cliente_tb">
+          <ScalarProperty Name="cliente_id" ColumnName="cliente_id" />
+          <ScalarProperty Name="nome_cli" ColumnName="nome_cli" />
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="rg" ColumnName="rg" />
+          <ScalarProperty Name="data_nascimento" ColumnName="data_nascimento" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="endereco" ColumnName="endereco" />
+          <ScalarProperty Name="cep" ColumnName="cep" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="funcionario_tb">
+      <EntityTypeMapping TypeName="varejoModel.funcionario_tb">
+        <MappingFragment StoreEntitySet="funcionario_tb">
+          <ScalarProperty Name="funcionario_id" ColumnName="funcionario_id" />
+          <ScalarProperty Name="nome_func" ColumnName="nome_func" />
+          <ScalarProperty Name="cargo" ColumnName="cargo" />
+          <ScalarProperty Name="data_nascimento" ColumnName="data_nascimento" />
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="rg" ColumnName="rg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="produto_tb">
+      <EntityTypeMapping TypeName="varejoModel.produto_tb">
+        <MappingFragment StoreEntitySet="produto_tb">
+          <ScalarProperty Name="produto_id" ColumnName="produto_id" />
+          <ScalarProperty Name="nome_prod" ColumnName="nome_prod" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="preco" ColumnName="preco" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="venda_tb">
+      <EntityTypeMapping TypeName="varejoModel.venda_tb">
+        <MappingFragment StoreEntitySet="venda_tb">
+          <ScalarProperty Name="venda_id" ColumnName="venda_id" />
+          <ScalarProperty Name="produto_id" ColumnName="produto_id" />
+          <ScalarProperty Name="cliente_id" ColumnName="cliente_id" />
+          <ScalarProperty Name="funcionario_id" ColumnName="funcionario_id" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="forma_pagamento" ColumnName="forma_pagamento" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

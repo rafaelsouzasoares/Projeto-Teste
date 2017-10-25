@@ -1,0 +1,7 @@
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\Modelos\bin\Debug\Modelos.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\Modelos\bin\Debug\Modelos.pdb
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\Modelos\obj\Debug\Modelos.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\Modelos\obj\Debug\Modelos.pdb
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\Modelos\obj\Debug\Modelos.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\Modelos\bin\Debug\Controlers.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\EstudoProvaProcessa\Modelos\bin\Debug\Controlers.pdb

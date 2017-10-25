@@ -1,0 +1,10 @@
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\bin\Debug\ProgramaTeste.exe.config
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\bin\Debug\ProgramaTeste.exe
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\bin\Debug\ProgramaTeste.pdb
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\bin\Debug\WebDriver.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\bin\Debug\WebDriver.Support.dll
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\bin\Debug\WebDriver.xml
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\bin\Debug\WebDriver.Support.xml
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\obj\Debug\ProgramaTeste.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\obj\Debug\ProgramaTeste.exe
+C:\Users\Rafael\Documents\Projetos para estudo\Aplicação\ProgramaTeste\ProgramaTeste\obj\Debug\ProgramaTeste.pdb
